@@ -4,6 +4,12 @@ var colour = ["red","blue","green","yellow"];
 var gamePattern =[];
 var level = 0;
 started = false;
+$(document).click(function(){
+  if(!started){
+  nextSequence();
+  started = true;
+}
+});
 
 $(document).keypress(function(){
   if(!started){
