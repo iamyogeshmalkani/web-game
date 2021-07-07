@@ -29,6 +29,7 @@ background-size: 100% 100%;
 
 .game-over {
   background-color: red;
+  background-image: none;
   opacity: 0.8;
 }
 
